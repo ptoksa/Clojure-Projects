@@ -1,4 +1,36 @@
+# Clojure build output
+/target/
+/classes/
+/out/
+/lib/
+/resources/public/js/compiled/
+
+# Leiningen
+/.lein-repl-history
+/.nrepl-port
+
+# ClojureScript compiler cache
+/.cljs_rhino_repl/
+/.cpcache/
+
+# Calva, VS Code
 .calva/
-.clj-kondo/
-.lsp/
 .vscode/
+.lsp/
+
+# clj-kondo (static analysis)
+.clj-kondo/
+
+# LSP
+.lsp/
+
+# IntelliJ / Cursive
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
