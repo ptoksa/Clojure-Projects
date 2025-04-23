@@ -9,9 +9,17 @@
 /.lein-repl-history
 /.nrepl-port
 
+# Clojure CLI
+/deps.edn.cache/
+/deps.edn.lock
+/.cpcache/
+
 # ClojureScript compiler cache
 /.cljs_rhino_repl/
 /.cpcache/
+
+# Shadow CLJS
+/.shadow-cljs/
 
 # Calva, VS Code
 .calva/
